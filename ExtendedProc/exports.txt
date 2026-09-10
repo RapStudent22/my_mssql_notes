@@ -1,0 +1,108 @@
+Microsoft (R) COFF/PE Dumper Version 14.38.33145.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file OPENDS60.DLL
+
+File Type: DLL
+
+  Section contains the following exports for opends60.dll
+
+    00000000 characteristics
+    572449EA time date stamp Sat Apr 30 13:00:10 2016
+        0.00 version
+           1 ordinal base
+         116 number of functions
+          80 number of names
+
+    ordinal hint RVA      name
+
+        114    0 00001010 ODS_init
+         55    1 000019F0 exit_srv_thread
+        115    2 000016B0 int_getpOAInfo
+        116    3 000016D0 int_setpOAInfo
+         78    4 00001610 srv_IgnoreAnsiToOem
+         57    5 00001A40 srv_ackattention
+          1    6 00001090 srv_alloc
+         69    7 00001B50 srv_ansi_describe
+         68    8 00001B20 srv_ansi_paramdata
+         70    9 00001B80 srv_ansi_sendmsg
+         71    A 00001BB0 srv_ansi_sendrow
+          2    B 000010A0 srv_bmove
+          3    C 000010C0 srv_bzero
+         60    D 00001530 srv_clearstatistics
+          4    E 000016F0 srv_config
+          5    F 00001720 srv_config_alloc
+          6   10 000010E0 srv_convert
+          7   11 00001100 srv_describe
+         10   12 00001750 srv_errhandle
+         11   13 00001780 srv_event
+         12   14 000017B0 srv_eventdata
+         75   15 000015B0 srv_flush
+         13   16 00001120 srv_free
+         56   17 00001A10 srv_get_text
+         76   18 000015D0 srv_getbindtoken
+         14   19 000017E0 srv_getconfig
+         77   1A 000015F0 srv_getdtcxact
+         15   1B 00001140 srv_getserver
+         16   1C 00001160 srv_getuserdata
+         17   1D 00001180 srv_got_attention
+         18   1E 00001810 srv_handle
+         72   1F 00001570 srv_impersonate_client
+         19   20 00001840 srv_init
+         52   21 00001990 srv_iodead
+         21   22 000018A0 srv_langcpy
+         22   23 000018D0 srv_langlen
+         24   24 00001930 srv_langptr
+         23   25 00001900 srv_log
+         62   26 00001550 srv_message_handler
+         25   27 000011A0 srv_paramdata
+         98   28 00001630 srv_paraminfo
+         26   29 000011C0 srv_paramlen
+         27   2A 000011E0 srv_parammaxlen
+         28   2B 00001200 srv_paramname
+         29   2C 00001220 srv_paramnumber
+         30   2D 00001240 srv_paramset
+        101   2E 00001650 srv_paramsetoutput
+         31   2F 00001260 srv_paramstatus
+         32   30 00001280 srv_paramtype
+         33   31 000012A0 srv_pfield
+        112   32 00001670 srv_pfieldex
+         74   33 00001BE0 srv_post_completion_queue
+         64   34 00001AF0 srv_post_handle
+         63   35 00001AC0 srv_pre_handle
+         34   36 00001960 srv_returnval
+         73   37 00001590 srv_revert_to_self
+         35   38 000012C0 srv_rpcdb
+         36   39 000012E0 srv_rpcname
+         37   3A 00001300 srv_rpcnumber
+         38   3B 00001320 srv_rpcoptions
+         39   3C 00001340 srv_rpcowner
+         40   3D 00001360 srv_rpcparams
+         20   3E 00001870 srv_run
+         41   3F 00001380 srv_senddone
+         42   40 000013A0 srv_sendmsg
+         43   41 000013D0 srv_sendrow
+         59   42 00001510 srv_sendstatistics
+         44   43 000013F0 srv_sendstatus
+         46   44 00001430 srv_setcoldata
+         45   45 00001410 srv_setcollen
+         61   46 00001A90 srv_setevent
+         47   47 00001450 srv_setuserdata
+         48   48 00001470 srv_setutype
+         49   49 00001490 srv_sfield
+         50   4A 000014B0 srv_symbol
+         53   4B 000014F0 srv_tdsversion
+         58   4C 00001A60 srv_terminatethread
+         51   4D 000014D0 srv_willconvert
+         54   4E 000019C0 srv_writebuf
+        113   4F 00001690 srv_wsendmsg
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        2000 .text
